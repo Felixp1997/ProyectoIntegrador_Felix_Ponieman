@@ -1,0 +1,64 @@
+.row{
+    padding-top: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+    background-size: 10000px;
+}
+.total{
+    background-color: whitesmoke;
+    text-align: center;
+    background-size: 10000px;
+   
+}
+#nombre{
+    font-weight: bold;
+    margin-top: 20%;
+}
+
+
+
+@media(min-width: 576px){
+    .titulos{
+        
+        position: absolute;
+        top: 560px;
+        left: 6%;
+        
+        
+
+
+    }
+}
+@media(max-width: 575px){
+    .titulos{
+        position: relative;
+        border-radius: 50%;
+        align-items: center;
+        margin-bottom: 80px;
+        font-size: 20px;
+        
+    }
+} 
+
+
+
+
+@media(min-width: 576px){
+    #fotoDePerfil{
+        border-radius: 50%;
+        position: absolute;
+        top: 320px;
+        width: 150px;
+        left: 6%;
+
+
+    }
+}
+@media(max-width: 575px){
+    #fotoDePerfil{
+        position: relative;
+        border-radius: 50%;
+        align-items: center;
+        
+    }
+} 

@@ -1,0 +1,35 @@
+
+.row{
+    padding: 20px;
+    background-color: whitesmoke;
+}
+.container{
+    width:auto;
+}
+.parte1, .parte2{
+    display: inline-block;
+    text-align: justify;
+
+}
+
+
+@media(max-width: 575px){
+    #titulo{
+        
+        
+        text-align: center;
+       
+        
+        
+    }
+}
+
+
+
+@media(max-width:575px){
+    #foto{
+        width: 70%;
+        border-radius: 100%;
+    
+    }
+}

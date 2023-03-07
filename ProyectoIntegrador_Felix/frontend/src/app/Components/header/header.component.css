@@ -1,0 +1,43 @@
+.row{
+    background-color: blueviolet;
+    
+}
+app-social{
+    float: right;
+    
+}
+
+.wbanner{
+    background-image: url(../../../assets/banner-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 428px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: antiquewhite;
+
+}
+
+
+
+
+/* @media(min-width: 576px){
+    #fotoperfil{
+        border-radius: 50%;
+        position: relative;
+        top: 600px;
+        width: 15%;
+        left: 3%;
+
+    }
+}
+@media(max-width: 575px){
+    #fotoDePerfil{
+        position: relative;
+        border-radius: 50%;
+        align-items: center;
+        
+    }
+} */
+
+

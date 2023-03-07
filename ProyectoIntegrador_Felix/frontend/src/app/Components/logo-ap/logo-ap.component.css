@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+}
+
+#logo-AP{
+    width: 150PX;
+}
+img{width: 50px;}
+@media(max-width: 500px){
+    img{
+        width: 40px;
+        
+    }
+}
+
+.rs:hover{
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+}
+.lado-derecho{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    border-width: medium;
+}
+.btn:hover{
+    color: white ;
+    background-color: black;
+}
+@media(max-width:413px){
+    .lado-derecho{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .btn{
+        
+        width: 100px;
+    }
+    .img{
+        width: 20px;
+    }
+    
+}

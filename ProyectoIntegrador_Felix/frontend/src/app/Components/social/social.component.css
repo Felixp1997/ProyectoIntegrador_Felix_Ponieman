@@ -1,0 +1,13 @@
+img{width: 50px;}
+@media(max-width: 400px){
+    img{
+        width: 30px;
+        
+    }
+}
+
+.rs:hover{
+    color: white;
+    background-color: black;
+    border-radius: 100%;
+}

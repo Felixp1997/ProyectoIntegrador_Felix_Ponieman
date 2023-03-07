@@ -1,0 +1,31 @@
+div{
+    background-color: whitesmoke;
+    
+}
+.row{
+    padding: 20px;
+    flex-direction: row;
+    display: flex;
+   
+}
+#titulo-seccion{
+    
+    margin-bottom: 30px;
+}
+
+h1, h3{
+    display: inline;
+}
+@media(max-width:575px){
+    #titulo-seccion{
+     text-align: center;   
+    }
+}
+#foto{
+width: 100px;    
+}
+@media(max-width:575px){#foto{
+    width: 15%;
+
+}
+}
